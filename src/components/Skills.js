@@ -1,6 +1,7 @@
 import SectionTitle from './SectionTitle';
 import { skills } from '../data';
 import SkillCard from './SkillCard';
+
 const Skills = ()=>{
     return (
         <section className="py-20 align-element" id="skills">
