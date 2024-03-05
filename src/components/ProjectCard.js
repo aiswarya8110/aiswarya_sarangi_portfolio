@@ -5,7 +5,7 @@ const ProjectCard = ({ project })=>{
    const { url, img, github, title, features } = project;
     return (
         <article className='bg-white rounded-lg shadow-md hover:shadow-lg duration-300'>
-            <img src={img} alt={title} className='w-full object-cover rounded-t-lg h-64'/>
+            <img src={img} alt={title} className='w-full object-contain rounded-t-lg h-64'/>
             <div className='capitalize p-8'>
                 <h2 className='text-xl tracking-wide font-medium'>{title}</h2>
                 {
