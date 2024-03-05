@@ -2,7 +2,15 @@ import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 import { SiRedux, SiTailwindcss, SiReactquery, SiGit } from "react-icons/si";
 import FoodOrdering from './assets/FoodOrderingApp.png';
 import NetflixGPTSearch from './assets/NetflixGPTSearchApp.png';
-import YoutubeClone from './assets/YoutubeClone.png'; 
+import YoutubeClone from './assets/YoutubeClone.png';
+import cart from './assets/cart.png';
+import cocktailSearch from './assets/cocktail-search.png';
+import eCommerce from './assets/e-commerce.png';
+import hackerNews from './assets/hacker-news.png';
+import movieSearch from './assets/movie-search.png';
+import infiniteScroll from './assets/infinite-scroll.png';
+import pagination from './assets/pagination.png';
+import unsplashImages from './assets/unsplash-images.png'; 
 
 export const links = [
   { id: 1, href: '#home', text: 'home' },
@@ -63,7 +71,7 @@ export const projects = [
     url: 'https://master--unrivaled-frangipane-573e4c.netlify.app/',
     github: 'https://github.com/aiswarya8110/youtube-clone',
     title: 'YouTube Clone',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    features: ['Real time comments', 'Live-chat', 'Dark Mode', 'Dynamic Search'],
   },
   {
     id: 2,
@@ -71,7 +79,7 @@ export const projects = [
     url: 'https://netflix-gpt-search.web.app/',
     github: 'https://github.com/aiswarya8110/netflix-gpt',
     title: 'Netflix GPT Search',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    features: ['GPT Search', 'Protected Routes', 'User Auth'],
   },
   {
     id: 3,
@@ -79,62 +87,62 @@ export const projects = [
     url: 'https://react-food-orderingapp.netlify.app/',
     github: 'https://github.com/aiswarya8110/food-ordering-app',
     title: 'Food Ordering App',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    features: ['Cart', 'Dark Mode','Lazy Loading', 'User Online'],
   },
 ];
 
 export const otherProjects = [
   {
     id:1,
-    img: '',
+    img: eCommerce,
     url: 'https://react-and-redux-shopping-app.netlify.app',
     github: 'https://github.com/aiswarya8110/e-commerce-app',
     title: 'e-commerce',
   },
   {
     id: 2,
-    img: '',
+    img: movieSearch,
     url: 'https://react-search-movieapp.netlify.app/',
     github: 'https://github.com/aiswarya8110/react-movieDB',
     title: 'Movie Search'
   },
   {
     id: 3,
-    img: '',
+    img: hackerNews,
     url: 'https://react-hacker-newsapp.netlify.app/',
     github: 'https://github.com/aiswarya8110/react-hacker-news',
     title: 'Hacker News'
   },
   {
     id: 4,
-    img: '',
+    img: cocktailSearch,
     url: 'https://timely-basbousa-9058e8.netlify.app/',
     github: 'https://github.com/aiswarya8110/react-mix-master-app',
     title: 'Cocktail Search'
   },
   {
     id: 5,
-    img: '',
+    img: cart,
     url: 'https://singular-fox-16ef90.netlify.app',
     github: 'https://github.com/aiswarya8110/react-cart',
     title: 'Cart'
   },
   {
     id:6,
-    img: '',
+    img: unsplashImages,
     url: 'https://quiet-pavlova-b0a421.netlify.app',
     github: 'https://github.com/aiswarya8110/react-unsplash-images-app',
     title: 'Unsplash Images'
   },{
     id:7,
-    img:'',
+    img: pagination,
     url: 'https://react-paginationapp.netlify.app/',
     github: 'https://github.com/aiswarya8110/react-pagination',
     title: 'React Pagination'
   }
   ,{
     id: 8,
-    img: '',
+    img: infiniteScroll,
     url: 'https://master--leafy-mousse-d5be7e.netlify.app/',
     github: 'https://github.com/aiswarya8110/react-infinite-scroll',
     title: 'Infinite Scroll'
